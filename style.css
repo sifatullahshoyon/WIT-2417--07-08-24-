@@ -1,205 +1,222 @@
 /* Google Font Family CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primaryColor: #964800;
-    --white: #ffffff;
-    font-family: "Poppins", sans-serif;
+  --primaryColor: #964800;
+  --white: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
-.container{
-    max-width: 1280px;
-    margin: auto;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
 
-.about-us{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    margin-bottom: 100px;
+.about-us {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-.aboutUs-img img{
-    object-fit: cover;
+.aboutUs-img img {
+  object-fit: cover;
 }
 
-.aboutUs-main{
-    padding: 5px;
+.aboutUs-main {
+  padding: 5px;
 }
 
-.aboutUs-heading{
-    font-size: xx-large;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    margin-bottom: 20px;
+.aboutUs-heading {
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
 }
 
-.aboutUs-detaiels{
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 20px;
-    text-align: justify;
-    padding-right: 10px;
+.aboutUs-detaiels {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding-right: 10px;
 }
 
-.aboutUs-info{
-    display: flex;
-    gap: 8rem;
-    margin-bottom: 20px;
+.aboutUs-info {
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 20px;
 }
 
-.aboutUs-client, .aboutUs-project{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.aboutUs-client,
+.aboutUs-project {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.fa-users, .fa-check{
-    background-color: #ddddddde;
-    padding: 8px;
-    font-size: 18px;
-    border-radius: 5px;
-    color: var(--primaryColor);
+.fa-users,
+.fa-check {
+  background-color: #ddddddde;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: var(--primaryColor);
 }
 
-.client-numbers{
-    color: var(--primaryColor);
-    font-size: 20px;
-    margin-bottom: 2px;
+.client-numbers {
+  color: var(--primaryColor);
+  font-size: 20px;
+  margin-bottom: 2px;
 }
 
-.btn-primary{
-    padding: 12px 30px;
-    background-color: #b15d0e;
-    color: var(--white);
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    cursor: pointer;
+.btn-primary {
+  padding: 12px 30px;
+  background-color: #b15d0e;
+  color: var(--white);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-.btn-primary:hover{
-    background-color: var(--primaryColor);
-    transition: 0.5s;
+.btn-primary:hover {
+  background-color: var(--primaryColor);
+  transition: 0.5s;
 }
 
 /* End About Section */
-.services-heading{
-    font-size: xx-large;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
+.services-heading {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.card{
-    width: 384px;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    margin-bottom: 100px;
+.card {
+  width: 384px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 100px;
 }
 
-.card-img{
-    object-fit: cover;
-    width: 100%;
+.card-img {
+  object-fit: cover;
+  width: 100%;
 }
 
-.card-body{
-    padding: 20px;
-    text-align: center;
+.card-body {
+  padding: 20px;
+  text-align: center;
 }
 
-.card-heading{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
+.card-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-.card-details{
-    font-size: 14px;
-    margin-bottom: 8px;
-    color: gray;
+.card-details {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: gray;
 }
 
-.card-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    color: var(--primaryColor);
-    text-decoration: none;
-    font-weight: 400;
-    cursor: pointer;
-    transition: 0.5s;
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--primaryColor);
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
+/* End Our Martyrs Section */
 
+.choose-us {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 100px;
+}
 
+.chooseUs-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 20px;
+}
 
+/* End Main Section */
 
+footer {
+  background-color: #dddddd;
+  padding: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer p {
+  text-align: center;
+}
 
 /* Responsive styles */
 /* Mobile Device */
-@media only screen and (max-width: 767px) { /* Extra small devices (portrait phones, less than 767px) */
-    .about-us{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 5px 5px 5px;
-        width: 100%;
-    }
+@media only screen and (max-width: 767px) {
+  /* Extra small devices (portrait phones, less than 767px) */
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px 5px 5px;
+    width: 100%;
+  }
 
-    .aboutUs-img img{
-        width: 98%;
-    }
+  .aboutUs-img img {
+    width: 98%;
+  }
 
-    .aboutUs-info{
-        flex-wrap: wrap;
-    }
-    /* End About Section */
-    .card{
-        width: 90%;
-    }
+  .aboutUs-info {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  /* End About Section */
+
+  .card {
+    width: 90%;
+  }
+
+  /* End Choose Us Section */
+
+  .choose-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px 5px 5px;
+    width: 100%;
+  }
+
+  .chooseUs-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
