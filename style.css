@@ -14,11 +14,17 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
 .about-us{
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .aboutUs-img img{
@@ -87,6 +93,64 @@
     transition: 0.5s;
 }
 
+/* End About Section */
+.services-heading{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card{
+    width: 384px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 100px;
+}
+
+.card-img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+}
+
+.card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-details{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.card-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
 
 
 
@@ -134,5 +198,8 @@
         flex-wrap: wrap;
     }
     /* End About Section */
+    .card{
+        width: 90%;
+    }
 }
 
